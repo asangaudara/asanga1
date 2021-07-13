@@ -45,10 +45,10 @@ def start(client, message):
                     InlineKeyboardButton('𝗥𝗘𝗣𝗢 🏋️', url='https://t.me/TamilSupport')
                 [ 
                     InlineKeyboardButton('𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 🤗', url='https://t.me/SongPlayRoBot?startgroup=true')
-                ]
-            ]
-        )
-    )
+               ]
+           ]
+       )
+   )
 
 @bot.on_message(filters.command(['s']))
 def a(client, message):
